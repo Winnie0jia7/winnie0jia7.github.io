@@ -1,0 +1,15 @@
+/* Custom styles for Hexo Icarus theme */
+
+/* 
+ * Target images within the main article content.
+ * This applies to images wrapped by the gallery plugin and standard images in paragraphs.
+ */
+.article-entry .gallery-item img,
+.article-entry > p > .asset-img {
+    /* Set a maximum width relative to the container. Adjust the percentage as you like. */
+    max-width: 80%;
+    /* Center the image horizontally */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
